@@ -16,3 +16,12 @@ In this algorithm the timeline is divided into different windows with fixed leng
 Each request increments the counter for that window.
 If counter reaches the threshold, requests will be rejected.
 
+We have to also discuss the rate limiting rules:
+{
+requestType: Login/Post/Like
+rateRules:
+{  
+  requestPerUnit: 5
+  unit: minute
+}
+}
