@@ -38,4 +38,4 @@ Vector clock.
 6. Handling failures
 Gossip protocol is used to detech failure detection.
    
-
+``
