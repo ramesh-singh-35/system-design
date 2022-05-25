@@ -13,3 +13,5 @@ table which can be mapped to user via user-id.
 9. We don't want to lose data so notification will be saved in a notification logs.
 
 
+The services will interact with notification system via APIs.
+Sample URL : /notifications/v1/push
