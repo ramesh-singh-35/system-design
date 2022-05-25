@@ -14,7 +14,7 @@ table which can be mapped to user via user-id.
 
 
 The services will interact with notification system via APIs.
-Sample URL : /notifications/v1/push
+Sample URL : v1/notifications
 
 Request Body: {
   "user_id": "",
