@@ -11,3 +11,8 @@ Params: Path of file to be downloaded: path: "src/resources/config.xml"
 3. Get file versions: https://api.example.com/file/versions, can sent paginated results.
 Params: file path and name.
    
+Block servers:
+1. Upload file to cloud storage in blocks, can only upload updated blocks using sync algorithms.
+2. Compressed blocks and encrypts them before sending to cloud storage.
+
+Metadata DB.
