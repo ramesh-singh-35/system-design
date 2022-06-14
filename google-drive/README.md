@@ -16,3 +16,10 @@ Block servers:
 2. Compressed blocks and encrypts them before sending to cloud storage.
 
 Metadata DB.
+Different tables we can have in metadata database:
+
+1. User
+2. Device
+3. Block
+4. File_version
+5. File
